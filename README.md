@@ -1,2 +1,2 @@
 # php-sql-dynamic-prepared-statements
-Automatically generate prepared satements for PHP Mysqli 
+Automatically generate HTML form entry and prepared satements for PHP Mysqli 
