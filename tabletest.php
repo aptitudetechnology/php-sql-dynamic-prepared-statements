@@ -2,7 +2,7 @@
 
 // create global connection using mysqli
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "blog_samples", "Feat4321Belmont", "blog_samples", "3306");
+$mysqli = mysqli_connect("localhost", "blog_samples", "password", "blog_samples", "3306");
 $mysqli->set_charset('utf8mb4'); // always set the charset
 
 function outputMySQLToHTMLTable(mysqli $mysqli, string $table)
